@@ -75,3 +75,5 @@ systemctl enable --now ipsec
 
 echo "✅ 部署完成！查看日志： journalctl -u ipsec -f"
 echo "🔑 PSK 密钥为: $PSK_KEY"
+
+journalctl -u ipsec -f
